@@ -3,6 +3,8 @@
 
 s = ['a', 'b', 'c', 'd', 'e']
 print(s)
+# len() 返回列表的长度
+print("s 列表的长度：", len(s), "个")
 
 # appdend() 在列表的末尾添加新的对象。
 s.append('f') 
