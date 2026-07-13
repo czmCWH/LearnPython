@@ -20,7 +20,7 @@
 # pip：是 Python 官方提供的 Python 的包管理工具，提供了对 Python 包的安装、卸载、查询等功能。
 #
 # ⚠️ 配置 Python 环境变量
-# 直接编辑 ~/.zshrc 文件，在最下面添加一行：`export DEEPSEEK_API_KEY=x`
+# 直接编辑 ~/.zshrc 文件，在最下面添加一行：`export DEEPSEEK_API_KEY=xxxx`
 # 终端执行，使配置立即生效：`source ~/.zshrc`
 #
 
