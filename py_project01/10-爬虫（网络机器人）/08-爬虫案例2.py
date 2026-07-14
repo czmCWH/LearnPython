@@ -15,7 +15,7 @@ import csv
 
 # 定义常量
 TMDB_BASE_URL = "https://www.themoviedb.org"
-TMDB_TOP_URL = "https://www.themoviedb.org/movie/top-rated"
+TMDB_TOP_URL = "https://www.themoviedb.org/movie/top-rated" # 高分电影榜单的数据页面（第一页）
 
 
 def get_movie_info(url):
@@ -68,7 +68,7 @@ def get_movie_info(url):
     "年份": movie_years[0].strip() if movie_years else "",
     "上映时间": movie_release_dates[0].strip() if movie_release_dates else "",
     "类型": ", ".join(movie_genres) if movie_genres else "", # ⚠️ 有多个类型，用逗号分隔
-    "时长": movie_durations[0].split(" ")[1] if movie_durations else "",
+    "时长": movie_durations[0].strip() if movie_durations else "",
     "评分": movie_ratings[0].strip() if movie_ratings else "",
     "语言": movie_languages[0].strip() if movie_languages else "",
     "导演": ", ".join(movie_directors) if movie_directors else "",

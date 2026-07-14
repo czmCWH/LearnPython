@@ -17,7 +17,7 @@ from lxml import html
 
 # 定义常量
 TMDB_BASE_URL = "https://www.themoviedb.org"
-TMDB_TOP_URL = "https://www.themoviedb.org/movie/top-rated"
+TMDB_TOP_URL = "https://www.themoviedb.org/movie/top-rated" # 高分电影榜单的数据页面（第一页）
 
 
 def get_movie_info(url):
