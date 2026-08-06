@@ -4,19 +4,23 @@
 #
 # Jupyter Notebook 是一个开源项目，由 IPython 项目发展而来，它支持多种编程语言，包括 Python、R、Julia 等。
 #
+# 👉 2、为什么要使用 Jupyter Notebook？
+# 在 `Jupyter Notebook` 中测试通过的代码最终要放在项目中的，为什么不直接在 PyCharm 或者 vscode 中编写代码？
+# 因为在 py 文件中编写代码，运行一次会执行所有的代码。无法只关注某一部分的代码，不方便调试。
+#
 # jupyter notebook 特点：
 #   - 交互式编程：在笔记本中运行代码并查看结果，而不需要离开笔记本。
 #   - 可视化：可以直接在笔记本中绘制图表和图形。
 #   - 单元格：笔记本由一系列的单元格组成，每个单元格可以包含代码、Markdown 文本或其他内容，每个单元格可以独立运行。
 # 
-
-# 👉 2、使用 Jupyter Notebook 的方式
+#
+# 👉 3、使用 Jupyter Notebook 的方式
 #
 # 方式1，直接在终端安装，然后运行，打开浏览器访问
 #    pip3 install notebook  # 安装 Jupyter Notebook
 #    jupyter notebook   # 启动 Jupyter Notebook 服务，然后打开浏览器访问 http://localhost:8888/
 #
-# 方式2，PyCharm 中默认集成了 Jupyter Notebook，可以直接在 PyCharm 中打开
+# 方式2，PyCharm IDE 中默认集成了 Jupyter Notebook，可以直接在 PyCharm 中打开
 #    在 PyCharm 中打开 Jupyter Notebook 文件，或者在 PyCharm 的 Terminal 中运行 jupyter notebook
 # 
 # 方式3，在 vscode 中安装 Jupyter Notebook 插件
